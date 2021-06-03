@@ -52,7 +52,7 @@ class AsyncEasyGTTSSession:
         query_params = {
             "lang": lang,
             "voice": voice,
-            "encoding": encoding.value or None,
+            "encoding": encoding.value,
             "text": text,
         }
 
