@@ -22,7 +22,12 @@ class AsyncEasyGTTSSession:
 
     A ClientSession can also be passed, which will be used to make requests. This is useful for connection pooling."""
 
-    def __init__(self, endpoint: str, *, client_session: ClientSession = None):
+    def __init__(
+        self, 
+        endpoint: str = "https://easy-gtts-api.dingus-server.regulad.xyz/", 
+        *, 
+        client_session: ClientSession = None
+    ):
         parsed_endpoint = urlparse(endpoint)
 
         self._endpoint = f"{parsed_endpoint.scheme}://{parsed_endpoint.netloc}/"
