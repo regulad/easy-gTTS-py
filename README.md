@@ -1,4 +1,4 @@
-# py-easygTTS
+# easy-gTTS-py
 
 Asynchronous interface to an [easy-gtts](https://github.com/regulad/easy-gTTS-API) server written with `aiohttp`.  
 
