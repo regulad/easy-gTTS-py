@@ -24,7 +24,7 @@ class AsyncEasyGTTSSession:
 
     def __init__(
         self, 
-        endpoint: str = "https://easy-gtts-api.dingus-server.regulad.xyz/", 
+        endpoint: str = "https://gtts.local.regulad.xyz/", 
         *, 
         client_session: ClientSession = None
     ):
